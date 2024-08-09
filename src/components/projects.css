@@ -1,0 +1,34 @@
+.container {
+  padding: 20px;
+}
+
+.fade-in {
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.project-list {
+  margin-top: 20px;
+}
+
+.project-item {
+  margin-bottom: 20px;
+}
+
+.project-item h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.project-item ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.project-item ul li {
+  margin-bottom: 5px;
+}
